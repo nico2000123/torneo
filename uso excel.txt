@@ -1,0 +1,5 @@
+variabile = xw.Book('epic tourney.xlsx').sheets('Risposte del modulo 1')
+variabile2 = ws.range('Fx:Ix').value
+
+ricorda che devi fare 
+import xlwings as xw

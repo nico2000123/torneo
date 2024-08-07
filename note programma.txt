@@ -1,0 +1,7 @@
+punto 1: tupla di liste. Prima lista giorni, seconda lista ore
+
+punto 2: nella tupla mettere come primo elemento la priorità. 
+La priorità è la somma di priorità prima settimana + priorità seconda settimana
+
+punto 3: cercare il valore di priorità più basso di tutti (il più disponibile
+)

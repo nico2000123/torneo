@@ -4,21 +4,33 @@ def settimana1 (a):
         if b[x] == 'Lunedì 12':
             b[x] = 'L'
             x +=1
+            if x == len(b):
+                break
         if b[x] == 'Martedì 13':
             b[x] = 'Ma'
             x +=1
+            if x == len(b):
+                break
         if b[x] == 'Mercoledì 14':
             b[x] = 'Me'
             x +=1
+            if x == len(b):
+                break
         if b[x] == 'Giovedì 15':
             b[x] = 'G'
             x +=1
+            if x == len(b):
+                break
         if b[x] == 'Venerdì 16':
             b[x] = 'V'
             x +=1
+            if x == len(b):
+                break
         if b[x] == 'Sabato 17':
             b[x] = 'S'
             x +=1
+            if x == len(b):
+                break
         if b[x] == 'Domenica 18':
             b[x] = 'D'
             break

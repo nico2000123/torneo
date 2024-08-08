@@ -21,7 +21,6 @@ def settimana1 (a):
             x +=1
         if b[x] == 'Domenica 18':
             b[x] = 'D'
-            x +=1
+            break
             
     return b
-
